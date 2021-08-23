@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378860748198",
+    "project_id": "striking-scout-237812",
+    "storage_bucket": "striking-scout-237812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378860748198:android:c3b193e8ca6b0af83d2367",
+        "android_client_info": {
+          "package_name": "COM.EXAMPLE.LLLL"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378860748198-hk4bou5onui7i9kmjapiun3m8kqd7qvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQBGVGfQ7DX0mlyuy-SpPvUepCWndUTOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378860748198-hk4bou5onui7i9kmjapiun3m8kqd7qvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
