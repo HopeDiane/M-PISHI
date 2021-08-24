@@ -13,8 +13,7 @@
         android:layout_height="400dp"
         android:layout_weight="1"
         app:srcCompat="@mipmap/app_icon_foreground"
-        android:layout_marginTop="130dp"
-        android:contentDescription="TODO" />
+        android:layout_marginTop="130dp"/>
 
     <Button
         android:id="@+id/get_Started"
