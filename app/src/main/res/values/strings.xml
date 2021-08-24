@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">MPISHI</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
@@ -39,9 +39,10 @@
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="phone_number">Phone Number</string>
-    <string name="email_address">Email Address</string>
+  <string name="email_address" tools:ignore="DuplicateDefinition">Email Address</string>
     <string name="choose_your_location">Choose Your Location</string>
     <string name="retype_pass">Re-type Password</string>
     <string name="already_have_an_account_log_in">Already have an Account? Log In</string>
     <string name="don_t_have_an_account_register">Don\'t have an Account? Register</string>
+    <string name="todo">TODO</string>
 </resources>
