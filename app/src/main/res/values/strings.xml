@@ -38,10 +38,18 @@
     <string name="are_you">Are You:</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
-    <string name="phone_number">Phone Number</string>
+    <int name="+701477774">Phone Number</int>
     <string name="email_address">Email Address</string>
     <string name="choose_your_location">Choose Your Location</string>
     <string name="retype_pass">Re-type Password</string>
     <string name="already_have_an_account_log_in">Already have an Account? Log In</string>
     <string name="don_t_have_an_account_register">Don\'t have an Account? Register</string>
+    <string name="complete_booking">COMPLETE BOOKING</string>
+    <string name="booking_details">Booking details</string>
+    <string name="textview">TextView</string>
+    <string name="payment_method_chosen">Payment method chosen:</string>
+    <string name="textview">TextView</string>
+    <string name="insert_m_pesa_number">Insert M-pesa number:</string>
+    <string name="pay">pay</string>
+    <string name="insert_amount">Insert amount</string>
 </resources>
