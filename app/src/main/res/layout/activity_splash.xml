@@ -65,12 +65,13 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/mpishi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
             android:fontFamily="@font/baloo"
             android:text="M-PISHI"
-            android:layout_marginTop="100dp"
             android:textColor="@color/white"
             android:textSize="90sp">
 
@@ -88,6 +89,7 @@
         android:layout_gravity="bottom">
 
         <TextView
+            android:id="@+id/tag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
