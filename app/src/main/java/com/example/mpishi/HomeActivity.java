@@ -13,12 +13,10 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-
-        Button lookingButton = findViewById(R.id.lookingChef);
-        Button userChef = findViewById(R.id.userAsChef);
-        lookingButton.setOnClickListener(new View.OnClickListener() {
+        Button startButton = findViewById(R.id.getStart);
+        startButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
 
                 Intent lookingIntent = new Intent(getApplicationContext(), RegisterActivity.class);
                 startActivity(lookingIntent);
@@ -26,19 +24,8 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        userChef.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-
-            }
-        });
     }
 
-    public void LookingChef(View view) {
-    }
-
-    public void Chef(View view) {
+    public void getStart(View view) {
     }
 }
