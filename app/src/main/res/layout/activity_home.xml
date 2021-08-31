@@ -20,29 +20,15 @@
         />
 
 
-    <TextView
-        android:id="@+id/lookingFor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="524dp"
-        android:text="@string/are_you"
-        android:textColor="@color/darkgreen"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/lookingChef"
+        android:id="@+id/getStart"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="580dp"
-        android:backgroundTint="@color/darkgreen"
-        android:text="@string/a_chef"
-        android:onClick="LookingChef"
+        android:backgroundTint="@color/darkorange"
+        android:text= "@string/get_started"
+        android:onClick="getStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,21 +36,6 @@
 
         />
 
-    <Button
-        android:id="@+id/userAsChef"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="650dp"
-        android:backgroundTint="@color/darkgreen"
-        android:text="@string/chef"
-        android:onClick="Chef"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
